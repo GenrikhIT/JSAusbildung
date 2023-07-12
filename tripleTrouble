@@ -1,0 +1,9 @@
+function tripleTrouble(one, two, three){
+  let stringEnd="";
+  let i = 0;
+  while ( i != one.length) {
+    stringEnd = stringEnd + one[i] + two[i] + three[i];
+    i ++;
+  }
+  return stringEnd;
+ }
